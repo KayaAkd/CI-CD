@@ -7,22 +7,17 @@
 
 ---
 # Содержание
-- [О проекте](Проект - микросервис для доставки сообщений по WebSocket)
-- [Демо / Скриншоты](screenshot.png)
-- [Особенности](Поддержка большинства ОС, легкая интеграция)
-- [Технологии](Python 3.1, SQLite 3)
-- [Установка](python -m venv .venv
-- source  .venv/bin/actvate
-- pip install -r requirements.txt)
-- [Быстрый старт](python app/main.py)
-- [Использование](from client import Client
-- c = Client(api_key="YOUR_KEY")
-- c.send("Hello")
+- [О проекте](#О-проекте)
+- [Демо / Скриншоты]()
+- [Особенности](#Особенности)
+- [Технологии](#Технологии)
+- [Установка](#Установка)
+- [Быстрый старт](#Быстрый-старт)
+- [Использование](#Использование)
 - [Конфигурация]()
 - [Архитектура]()
-- [API / Интерфейсы](POST /api/auth
-- GET /api/items)
-- [Тесты](pytest tests/)
+- [API / Интерфейсы](#API-Интерфейсы)
+- [Тесты](#Тесты)
 - [CI / CD](https://github.com/KayaAkd/CI-CD)
 - [Безопасность]()
 - [Как внести вклад]()
@@ -30,3 +25,36 @@
 - [Контакты]()
 - [TODO / Roadmap]()
 - [История изменений]()
+
+
+## О проекте
+Проект - микросервис для доставки сообщений по WebSocket
+
+## Демо / Скриншоты
+screenshot.png
+
+## Особенности 
+Поддержка большинства ОС, легкая интеграция
+
+## Технологии
+Python 3.1, SQLite 3
+
+## Установка
+python -m venv .venv
+- source  .venv/bin/actvate
+- pip install -r requirements.txt
+
+## Быстрый старт
+python app/main.py
+
+## Использование
+from client import Client
+- c = Client(api_key="YOUR_KEY")
+- c.send("Hello")
+
+## API / Интерфейсы
+POST /api/auth
+GET /api/items
+
+## Тесты
+pytest tests/
